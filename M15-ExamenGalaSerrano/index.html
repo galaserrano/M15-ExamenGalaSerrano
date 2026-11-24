@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Sakura Badalona</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!--menu navBar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Restaurant Sakura Badalona</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#carouselExample">Inici</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#carouselExample">Qui som</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#especialitats">Especialitats</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#formulariReserva">Reserves</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Tittle-->
+    <header class="bg-secondary text-white text-center py-4">
+        <div class="container">
+            <h1>Restaurant Sakura | Autèntica Cuina Japonesa - badalona</h1>
+        </div>
+    </header>
+    
+    <!--Carrousel-->
+    <section class="container my-4">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/Restaurant_1.jpg" class="d-block w-100" style="height: 350px; object-fit: cover;" alt="Imatge 1">
+                    <div class="carousel-caption d-none d-md-block text-bg-danger p-3">
+                        <h3>Benvinguts a Sakura Badalona</h3>
+                        <p>Tradició i fusió japonesa al cor de la ciutat.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/cocinero_haciendo_sushi.jpg" class="d-block w-100" style="height: 350px; object-fit: cover;" alt="Imatge 2">
+                    <div class="carousel-caption d-none d-md-block text-bg-success p-3">
+                        <h5>Mestres del Sushi</h5>
+                        <p>Ingredients frescos seleccionats diàriament al mercat.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/niguiris.jpg" class="d-block w-100" style="height: 350px; object-fit: cover;" alt="Imatge 2">
+                    <div class="carousel-caption d-none d-md-block text-bg-light p-3">
+                        <h5>L'art del tall</h5>
+                        <p>Nigiris i sashimis preparats al moment davant teu.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/ramen.jpg" class="d-block w-100" style="height: 350px; object-fit: cover;" alt="Imatge 2">
+                    <div class="carousel-caption d-none d-md-block bg-warning">
+                        <h5>Ramen Autèntic</h5>
+                        <p>Receptes ancestrals de Kyoto preparades amb paciència.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/gyozas.jpg" class="d-block w-100" style="height: 350px; object-fit: cover;" alt="Imatge 2">
+                    <div class="carousel-caption d-none d-md-block bg-secondary">
+                        <h5>Entrants Deliciosos</h5>
+                        <p>Gyozas artesanes cruixents i edamame saltejat.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+    <!--tarjetes-->
+    <section id="especialitats" class="container my-5">
+        <h2 class="text-center mb-4">Les Nostres Especialitats</h2>
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <img src="img/sushi.jpg" class="card-img-top" style="height: 180px; object-fit: cover;" alt="Plat 1">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Combo Sakura</h5>
+                        <p class="card-text">Selecció especial de 18 peces: nigiris de salmó i tonyina roja, maki d'alvocat i uramaki cruixent.</p>
+                        <button type="button" class="btn btn-outline-danger">Demanar</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <img src="img/ramen_tonkotsu.jpg" class="card-img-top" style="height: 180px; object-fit: cover;" alt="Plat 2">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Tonkotsu Ramen</h5>
+                        <p class="card-text">Brou tradicional de porc cuit durant 12 hores, fideus frescos, chashu (cansalada marinada) i ou cuit.</p>
+                        <button type="button" class="btn btn-outline-danger">Demanar</button>
+                    </div>
+                </div>
+            </div>
+            <!--Card 3-->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <img src="img/tempura_gambas.webp" class="card-img-top" style="height: 180px; object-fit: cover;" alt="Plat 2">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">Tempura Moriawase</h5>
+                        <p class="card-text">Varietat de llagostins i verdures de temporada arrebossats en massa lleugera i cruixent estil japonès.</p>
+                        <button type="button" class="btn btn-outline-danger">Demanar</button>
+                    </div>
+                </div>
+            </div>
+            <!--Card 4-->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <img src="img/mochi_te_verde.jpg" class="card-img-top" style="height: 180px; object-fit: cover;" alt="Plat 2">
+                    <div class="card-body">
+                        <h5 class="card-title text-success">Mochis de Matcha</h5>
+                        <p class="card-text">Postre tradicional japonès elaborat amb massa d'arròs glutinós farcida de gelat de te verd Matcha.</p>
+                        <button type="button" class="btn btn-outline-danger">Demanar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Formulari-->
+    <form id="formulariReserva">
+
+    
+</form>
+
+<!-- Missatge de confirmació -->
+<div id="missatge"></div>
+
+    <section id="reserves" class="container my-5">
+        <h2 class="text-center mb-4">Formulari de Reserva</h2>
+        <!-- Espai per al missatge de confirmació de JS -->
+        <div id="missatgeConfirmacio"></div>
+        
+        <form id="formulariReserva">
+            <!-- Afegir aquí els camps: Nom, Cognoms, Telèfon, Correu, Data, Consulta i Botó -->
+               <div class="mb-3">
+                    <label for="nom" class="form-label">Nom</label>
+                    <input type="text" class="form-control" id="nom">
+                    <div class="invalid-feedback">Introdueix el teu nom.</div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="cognoms" class="form-label">Cognoms</label>
+                    <input type="text" class="form-control" id="cognoms">
+                    <div class="invalid-feedback">Introdueix els teus cognoms.</div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="telefon" class="form-label">Telèfon</label>
+                    <input type="tel" class="form-control" id="telefon">
+                    <div class="invalid-feedback">Introdueix el teu telèfon.</div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="correu" class="form-label">Correu electrònic</label>
+                    <input type="email" class="form-control" id="correu">
+                    <div class="invalid-feedback">Introdueix un correu vàlid.</div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="consulta" class="form-label">Detalls de la reserva / Consulta</label>
+                    <textarea class="form-control" id="consulta" rows="4"></textarea>
+                    <div class="invalid-feedback">Escriu els detalls de la consulta.</div>
+                </div>
+
+             <button type="submit" class="btn btn-primary">Enviar</button>
+         </form>
+    </section>
+
+    
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <h4>Vine a veure'ns!</h4>
+            <p>Carrer d'Eduard Maristany, 32, Badalona</p>
+            <hr>
+            <p class="mb-0">INS Barres i Ones - SMX2 | Gala Serrano Nicolás</p>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Enllaçar aquí el fitxer js/script.js -->
+</body>
+</html>
